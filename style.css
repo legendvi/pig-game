@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(green, yellowgreen);
+}
+.hidden {
+  display: none;
+}
+.maindiv {
+  height: 70vh;
+  position: relative;
+}
+
+.player-0,
+.player-1 {
+  height: 80%;
+  width: 30%;
+}
+.player-b0 {
+  background-image: linear-gradient(rgb(197, 125, 125), crimson);
+}
+.player-b1 {
+  background-image: linear-gradient(crimson, rgb(197, 125, 125));
+}
+.dice {
+  z-index: 1;
+  height: 15%;
+
+  position: absolute;
+  right: 47%;
+  left: 47%;
+}
+#win {
+  height: 3.3rem;
+  background-color: burlywood;
+  font-size: 2.2rem;
+  text-align: center;
+}
